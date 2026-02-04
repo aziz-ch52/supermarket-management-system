@@ -27,12 +27,3 @@ This project demonstrates key concepts in database management, CRUD operations, 
 | **Backend** | Java / Python / Node.js *(replace with what your video uses)* |
 | **Database** | MySQL / SQLite |
 | **IDE Used** | VS Code / NetBeans / IntelliJ *(whichever you use)* |
-
----
-
-## 🧰 How to Run the Project
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/YourUsername/supermarket-management-system.git
-   cd supermarket-management-system
