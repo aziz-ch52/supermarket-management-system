@@ -78,7 +78,7 @@ supermarket-management-system/
 Clone the repository
 
 ```
-git clone https://github.com/yourusername/supermarket-management-system.git
+git clone https://github.com/aziz-ch52/supermarket-management-system.git
 ```
 
 Open the project in your IDE.
@@ -94,4 +94,3 @@ Run the project using **Main.java**.
 ## 👨‍💻 Author
 
 Aziz  
-BCA Student
