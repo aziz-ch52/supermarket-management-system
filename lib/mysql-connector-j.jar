@@ -1,0 +1,38 @@
+/*
+ MySQL Connector/J
+
+ This file represents the MySQL Connector library used in the project.
+
+ MySQL Connector/J is a JDBC driver that allows Java applications to connect
+ and interact with a MySQL database.
+
+ It enables operations such as:
+ - Connecting Java programs to MySQL
+ - Executing SQL queries
+ - Performing CRUD operations (Create, Read, Update, Delete)
+ - Managing database transactions
+
+ In this project, the connector is used by Database.java to establish
+ a connection between the Java application and the MySQL database.
+
+ The connection is created using JDBC with the following driver:
+
+     com.mysql.cj.jdbc.Driver
+
+ Example connection usage (in Database.java):
+
+     Class.forName("com.mysql.cj.jdbc.Driver");
+     Connection conn = DriverManager.getConnection(
+         "jdbc:mysql://localhost:3306/supermarket",
+         "root",
+         ""
+     );
+
+ The connector JAR file (mysql-connector-j.jar) must be placed inside
+ the 'lib' folder and added to the project libraries so the Java
+ application can communicate with the MySQL server.
+
+ Note:
+ No executable Java code is written inside the connector file itself.
+ It only provides the JDBC driver required for database connectivity.
+*/
